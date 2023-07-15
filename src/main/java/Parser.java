@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 
 public class Parser {
     private static Document getPage() throws IOException {
-        String url = "https://www.pogoda.spb.ru/";
+        String url = "https://www.pogoda.msk.ru/";
         Document page = Jsoup.parse(new URL(url), 3000);
         return page;
     }
